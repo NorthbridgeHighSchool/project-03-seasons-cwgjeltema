@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+a:link {
+  color: rgb(8, 60, 235)
+  padding: 5px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 10px;
+}
+a:visited {
+  color: rgb(16, 243, 205);
+}
+a:hover {
+color: rgb(18, 238, 201);
+background-color: rgb(233, 13, 233);
+box-shadow: 1px 1px;
+}
+a.current {
+  color: rgb(255, 255, 255)
+}
+a:active {
+  color: rgb(15, 211, 236)
+}
+.textblock {
+  background-color: rgb(192, 165, 165)
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+}
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+  margin: 15px;
+}
+.logo {
+  float: left;
+  margin-right: 10px;
+}
+img {
+  max-width: 325px;
+}
+html.Fall {
+  background-image: url('fallimage.jpeg');
+  background-repeat: no repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+html.Summer {
+  background-image: url('summerimage.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+html.Spring {
+  background-image: url('springimage.jpg');
+  background-repeat: no repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+html.Winter {
+  background-image: url('winterimage.jpeg');
+  background-repeat: no repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
